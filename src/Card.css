@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.card-container{
+    width: 176px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 50px;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+.card--image-container{
+    min-width: 176px;
+    height: 235px;
+    background-color: gray;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url("./assets/card/swimmer.svg"); */
+}
+.card--status{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    width: 61px;
+    height: 20px;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card--rating{
+    display: flex;
+    align-items: center;
+    gap:3px;
+    font-size: 0.75rem;
+}
+
+.card--star-icon{
+    height: 14px;
+    width: 14px;
+}
+.country{
+    color: rgba(145, 142, 155, 1);
+    ;
+}
+.card--pricing-info{
+    display: flex;
+    gap:5px;
+  
+}
+h2{
+    font-size: 0.75rem;
+    font-weight: 300;
+
+}
+.card--price{
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.card--per-person{
+    font-size: 0.75rem;
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+  
+}
